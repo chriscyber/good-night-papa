@@ -11,7 +11,7 @@ Based on our research of the mental health strategies used for trauma in childre
 * Letter to Papa - write or record a message for someone left behind
 * Happy Thoughts - calming questions to think about to stay positive
 * Guided Sleep - Methods to calm a busy mind into a relaxed sleepy state 
-*/
+
 
 ## Placeholders
 
