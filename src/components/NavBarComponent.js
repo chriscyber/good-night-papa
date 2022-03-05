@@ -1,3 +1,14 @@
+
+const NavBarComponent = () => {
+    return (
+        <div>
+            <h1>Test</h1>
+        </div>
+      );
+}
+ 
+export default NavBarComponent;
+
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, Nav, NavbarBrand, NavItem, NavLink, Button } from 'reactstrap';
 
@@ -28,3 +39,4 @@ const NavBarComponent = (props) => {
 }
 
 export default NavBarComponent;
+
