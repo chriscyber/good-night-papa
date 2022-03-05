@@ -19,6 +19,6 @@ We have placeholders for future games to help calm and support a happier mood.
 
 ## Technology Stack
 
-A Mobile first responsive SPA
-React
-JSON Server
+* A Mobile first responsive SPA
+* React
+* JSON Server
