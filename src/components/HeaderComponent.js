@@ -3,18 +3,15 @@ import NavBarComponent from "./NavBarComponent";
 
 const Header = () => {
   return (
-    <Jumbotron fluid>
+    <Jumbotron fluid className="m-0 p-1">
       <Container fluid>
-        <Row>
-          <Col>
-            <NavBarComponent />
-          </Col>
-          <Col className="text-left">
+        <Row className="align-items-center">
+        <Col className="text-left">
             <h5>Good Night Papa</h5>
-          </Col>
-          <Col>
-            <Button>Log In</Button>
-          </Col>
+        </Col>
+        <Col>
+            <NavBarComponent />
+        </Col>
         </Row>
       </Container>
     </Jumbotron>

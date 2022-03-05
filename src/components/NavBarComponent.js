@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, Nav, NavbarBrand, NavItem, NavLink, Button } from 'reactstrap';
 
 const NavBarComponent = (props) => {
   const [collapsed, setCollapsed] = useState(true);
@@ -8,9 +8,11 @@ const NavBarComponent = (props) => {
 
   return (
     <div>
-      <Navbar color="faded" light className="p-0 m-0">
+      <Navbar color="faded" light>
+      <NavbarBrand href="/" className="mr-auto"><Button>Language</Button></NavbarBrand>
+      <NavbarBrand href="/" className="mr-auto"><Button>Sign Up</Button></NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} />
-        <Collapse isOpen={!collapsed} navbar>
+        <Collapse isOpen={!collapsed} navbar >
           <Nav navbar>
             <NavItem>
               <NavLink href="/components/">Components</NavLink>
