@@ -1,4 +1,6 @@
-import MainComponent from "./components/MainComponent";
+
+import MainComponent from './components/MainComponent';
+
 import "./App.css";
 
 function App() {
