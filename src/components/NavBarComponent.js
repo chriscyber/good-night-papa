@@ -8,9 +8,9 @@ const NavBarComponent = (props) => {
 
   return (
     <div>
-      <Navbar color="faded" light>
-      <NavbarBrand href="/" className="mr-auto"><Button>Language</Button></NavbarBrand>
-      <NavbarBrand href="/" className="mr-auto"><Button>Sign Up</Button></NavbarBrand>
+      <Navbar color="faded" light className="p-0">
+      <Button>Language</Button>
+      <Button>Sign Up</Button>
         <NavbarToggler onClick={toggleNavbar} />
         <Collapse isOpen={!collapsed} navbar >
           <Nav navbar>
