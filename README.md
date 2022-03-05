@@ -17,3 +17,8 @@ Based on our research of the mental health strategies used for trauma in childre
 
 We have placeholders for future games to help calm and support a happier mood.
 
+## Technology Stack
+
+A Mobile first responsive SPA
+React
+JSON Server
