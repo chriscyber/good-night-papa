@@ -7,7 +7,7 @@ const HomeOptionsComponent = () => {
             <Row>
             {HomeComponentCards.map((element) => {
                 return (
-                <Col key={element.id}>
+                <Col key={element.id} className="col-12 col-sm-6 col-md-4">
                     <Card className="mt-3 mb-3">
                     <CardBody>
                     <CardTitle tag="h5">{element.title}</CardTitle>

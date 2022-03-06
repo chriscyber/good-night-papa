@@ -1,6 +1,7 @@
 import Header from './HeaderComponent'
 import HeroComponent from './HeroComponent'
 import HomeOptionsComponent from './HomeOptionsComponent';
+import Games from './GamesComponent';
 
 
 const HomeComponent = () => {
@@ -9,6 +10,7 @@ const HomeComponent = () => {
             <Header />
             <HeroComponent />
             <HomeOptionsComponent />
+            <Games />
         </div>
       );
 }

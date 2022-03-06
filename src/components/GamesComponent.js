@@ -4,7 +4,7 @@ const GamesComponent = () => {
     return (
         <Container>
             <Row>
-                <Col>
+                <Col className="text-left mt-3">
                     <h1>Games</h1>
                 </Col>
             </Row>
