@@ -7,7 +7,7 @@ This application was built for the refugee children fleeing the Ukraine/Russia c
 ## Motivation
 ![Hackathon Promotion Image with Team Name](public/assets/iwdhackathon.jpeg)
 
-This project was built for the International Women's Day HackHerThon 2022 hosted by [Th.0](https://thpoint0.io/).  In light of the recents events in Ukraine, we choose the "Marginalized Communities - Refugee Resettlement and Integration" challenge.  Our task was to create a product that could help the Ukranian women and/or children refugees resettle and integrate into their new communities.  
+This project was built for the International Women's Day HackHerThon 2022 hosted by [Th.0](https://thpoint0.io/).  In light of the recent events in Ukraine, we choose the "Marginalized Communities - Refugee Resettlement and Integration" challenge.  Our task was to create a product that could help the Ukranian women and/or children refugees resettle and integrate into their new communities.  
 
 ## Key Features
 
