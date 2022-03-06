@@ -2,7 +2,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const HeroComponent = () => {
     return (
-        <Container fluid>
+        <Container fluid className="herocontainer">
             <Row>
                 <Col className="col-8">
                 <img className="img-fluid" src="assets/bird_on_moon.png" alt="bird on the moon" />

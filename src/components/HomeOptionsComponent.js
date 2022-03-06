@@ -3,13 +3,12 @@ import {Card, CardBody, CardTitle, CardText, Col, Row, Container} from 'reactstr
 
 const HomeOptionsComponent = () => {
     return (
-        <Container fluid>
+        <Container fluid className="homecarddeck">
             <Row>
-
             {HomeComponentCards.map((element) => {
                 return (
-                <Col>
-                    <Card>
+                <Col key={element.id}>
+                    <Card className="mt-3 mb-3">
                     <CardBody>
                     <CardTitle tag="h5">{element.title}</CardTitle>
                     </CardBody>
