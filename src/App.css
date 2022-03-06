@@ -17,3 +17,14 @@
 .homecarddeck {
   background-color: #90BFFF;
 }
+
+.signupbtn {
+  background-color: white;
+  border-color: #90BFFF;
+  color: #90BFFF;
+}
+
+.langbtn {
+  background-color: #90BFFF;
+  border: none;
+}
