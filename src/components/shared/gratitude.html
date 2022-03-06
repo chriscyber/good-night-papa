@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Thoughts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+          background-image: url(https://media.istockphoto.com/photos/abstract-peaceful-background-picture-id643779668?k=6&m=643779668&s=170667a&w=0&h=0VYE8wGQ-3YWrkYF7D0eVfbh02t3ilWR617UZU3aBRA=);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        p {
+            color:#484882;
+            font-size:60px;
+            text-transform:uppercase;
+            font-family: Poppins;
+            font-weight:bold;
+            text-align: center;
+        }
+
+        .thought:nth-child(1){
+            animation-name: fade;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+            animation-duration: 10s;
+            animation-direction: alternate-reverse;  
+        }
+
+        .thought:nth-child(2){
+            animation-name: fade;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+            animation-duration: 10s;
+            animation-direction: alternate;
+        }
+
+
+@keyframes fade{
+        0%,45% {
+        opacity: 0;
+    }
+        100%{
+        opacity: 1;
+    }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+          <div class="col text-center">
+            <p class="thought">What made me happy today?</p>
+            <p class="thought">What am I looking forward to tomorrow?</p>
+          </div>
+        </div>
+    </div>
+</body>
+
+</html>

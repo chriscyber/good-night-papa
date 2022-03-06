@@ -7,7 +7,7 @@ const Header = () => {
       <Container fluid>
         <Row className="align-items-center">
         <Col className="text-left col-8 col-sm-8 col-md-7">
-            <h5>Good Night Papa</h5>
+            <img src='assets/logo.png' alt="goodnightpapa logo"></img>
         </Col>
         <Col>
             <NavBarComponent />
